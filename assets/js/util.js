@@ -583,5 +583,9 @@
 			});
 
 	};
+	
+	$('#back-hp').on('click', function() {
+		window.redirect.location('https://marinett.github.io/');	
+	});
 
 })(jQuery);
